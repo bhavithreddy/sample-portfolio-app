@@ -435,4 +435,5 @@ Have questions or opportunities? Let's connect!
 
 **Built for DevOps Engineers, by DevOps Engineers** 🚀
 
+<img width="1837" height="822" alt="image" src="https://github.com/user-attachments/assets/15396ca4-782d-44be-9736-404f0ed18079" />
 
