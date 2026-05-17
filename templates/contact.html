@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact YOUR_NAME - Let's discuss DevOps, Cloud Architecture, or Collaboration">
+    <title>Contact - YOUR_NAME</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/home">
+                    <span class="logo-text">DevOps</span>
+                    <span class="logo-accent">Portfolio</span>
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="/home" class="nav-link">Home</a></li>
+                    <li><a href="/about" class="nav-link">About</a></li>
+                    <li><a href="/skills" class="nav-link">Skills</a></li>
+                    <li><a href="/projects" class="nav-link">Projects</a></li>
+                    <li><a href="/contact" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>I'd love to hear from you. Let's discuss projects, opportunities, or DevOps best practices.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <main class="container page-content">
+        <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <section class="contact-form-section">
+                <h2>Send Me a Message</h2>
+                
+                <form class="contact-form" action="mailto:YOUR_EMAIL" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            required 
+                            placeholder="John Doe"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email *</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required 
+                            placeholder="you@example.com"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a topic</option>
+                            <option value="project-inquiry">Project Inquiry</option>
+                            <option value="consulting">Consulting Request</option>
+                            <option value="collaboration">Collaboration Opportunity</option>
+                            <option value="mentoring">Mentoring</option>
+                            <option value="speaking">Speaking Engagement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            required 
+                            rows="6" 
+                            placeholder="Tell me about your project, question, or opportunity..."
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">
+                        Note: This form uses mailto. For better experience, please use the email addresses below.
+                    </p>
+                </form>
+
+                <div class="form-alternative">
+                    <p>Or connect with me directly:</p>
+                </div>
+            </section>
+
+            <!-- Contact Information -->
+            <section class="contact-info-section">
+                <h2>Other Ways to Connect</h2>
+
+                <div class="contact-info-grid">
+                    <!-- Email -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+                        <p>Best for detailed inquiries and proposals</p>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/YOUR_GITHUB" target="_blank">@YOUR_GITHUB</a>
+                        <p>View my code and open-source projects</p>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.437-.103.25-.129.599-.129.948v5.42h-3.554s.05-8.81 0-9.728h3.554v1.375c.429-.662 1.196-1.608 2.905-1.608 2.125 0 3.718 1.395 3.718 4.393v5.568zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.706 0-.955.77-1.706 1.96-1.706 1.188 0 1.915.751 1.929 1.706 0 .948-.741 1.706-1.974 1.706zm1.6 11.597H3.642V9.001h3.295v11.451zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                            </svg>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">/in/YOUR_LINKEDIN</a>
+                        <p>Connect on LinkedIn for professional updates</p>
+                    </div>
+
+                    <!-- Resume -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/>
+                                <path d="M16 18H8v-2h8v2zm0-4H8v-2h8v2zm0-4H8V8h8v2z" fill="white"/>
+                            </svg>
+                        </div>
+                        <h3>Resume</h3>
+                        <a href="/static/resume.pdf" download>Download PDF</a>
+                        <p>Download my detailed resume and CV</p>
+                    </div>
+
+                    <!-- Calendar -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zm-5.04-6.71l-2.75 3.54h3.54l4.96-6.35L12.5 6l-3.54 4.29z"/>
+                            </svg>
+                        </div>
+                        <h3>Schedule Meeting</h3>
+                        <a href="https://calendly.com/YOUR_NAME" target="_blank">Book a Call</a>
+                        <p>Schedule a 30-min call to discuss opportunities</p>
+                    </div>
+
+                    <!-- Twitter/X -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7a10.6 10.6 0 01-9-5.5z"/>
+                            </svg>
+                        </div>
+                        <h3>Follow Updates</h3>
+                        <a href="https://twitter.com/YOUR_HANDLE" target="_blank">@YOUR_HANDLE</a>
+                        <p>Follow me for DevOps insights and tips</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Availability Status -->
+        <section class="availability-section">
+            <h2>Current Availability</h2>
+            <div class="availability-card">
+                <div class="status-indicator available"></div>
+                <div class="status-text">
+                    <h3>Available for New Projects</h3>
+                    <p>
+                        I'm currently available for:
+                    </p>
+                    <ul>
+                        <li>🏢 Full-time DevOps Engineering roles</li>
+                        <li>🤝 Consulting and architecture reviews</li>
+                        <li>📚 Mentoring and knowledge sharing</li>
+                        <li>🎤 Speaking engagements and workshops</li>
+                        <li>👥 Contract and freelance projects</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>What's your typical response time?</h3>
+                <p>I try to respond to all inquiries within 24-48 hours. For urgent matters, please mention it in your message.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What's your availability for consulting?</h3>
+                <p>I offer flexible consulting packages. We can discuss hourly, daily, or project-based rates based on your needs.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Do you provide DevOps training or workshops?</h3>
+                <p>Yes! I'm available for technical workshops and training sessions. Custom content based on your team's needs.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can we connect on a specific platform?</h3>
+                <p>Absolutely! Choose the platform that works best for you - email, LinkedIn, GitHub, or schedule a meeting directly.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What timezone are you in?</h3>
+                <p>I'm flexible with timezones and happy to accommodate meetings across regions.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DevOps Portfolio</h4>
+                    <p>Cloud infrastructure and DevOps engineering showcase</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/skills">Skills</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:YOUR_EMAIL">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 YOUR_NAME. All rights reserved. Built with Go, Docker & ❤️</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

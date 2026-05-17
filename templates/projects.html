@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevOps Projects - Kubernetes, Cloud Infrastructure, Automation">
+    <title>Projects - YOUR_NAME</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/home">
+                    <span class="logo-text">DevOps</span>
+                    <span class="logo-accent">Portfolio</span>
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="/home" class="nav-link">Home</a></li>
+                    <li><a href="/about" class="nav-link">About</a></li>
+                    <li><a href="/skills" class="nav-link">Skills</a></li>
+                    <li><a href="/projects" class="nav-link active">Projects</a></li>
+                    <li><a href="/contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Showcasing real-world DevOps and cloud infrastructure solutions</p>
+        </div>
+    </section>
+
+    <!-- Projects Content -->
+    <main class="container page-content">
+
+        <!-- Project 1 -->
+        <article class="project-detail">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category">Kubernetes</span>
+                    <span class="project-date">2024</span>
+                </div>
+                <h2>Multi-Cloud Kubernetes Platform</h2>
+            </div>
+            
+            <div class="project-body">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        Designed and implemented a multi-cloud Kubernetes platform supporting deployment 
+                        across AWS (EKS), Azure (AKS), and GCP (GKE). The platform includes automated 
+                        provisioning, GitOps-based continuous deployment, and comprehensive monitoring.
+                    </p>
+                    
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>Reduced deployment time from 2 hours to 5 minutes using GitOps</li>
+                        <li>Implemented cross-cloud failover capabilities for disaster recovery</li>
+                        <li>Achieved 99.99% uptime through automated health checks and auto-healing</li>
+                        <li>Reduced infrastructure costs by 40% through resource optimization</li>
+                    </ul>
+
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
+                        <span>ArgoCD</span>
+                        <span>Helm</span>
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>Istio</span>
+                    </div>
+
+                    <h3>Architecture Highlights</h3>
+                    <p>
+                        The platform features declarative infrastructure using Terraform, GitOps-driven 
+                        deployments with ArgoCD, service mesh implementation with Istio, and comprehensive 
+                        observability through Prometheus and Grafana. Automated scaling ensures optimal 
+                        resource utilization while maintaining performance.
+                    </p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/YOUR_GITHUB/project" target="_blank" class="btn btn-outline">View Code →</a>
+                    <a href="#" class="btn btn-outline">Case Study →</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-detail">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category">DevSecOps</span>
+                    <span class="project-date">2024</span>
+                </div>
+                <h2>Secure CI/CD Pipeline with Supply Chain Security</h2>
+            </div>
+            
+            <div class="project-body">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        Implemented end-to-end secure CI/CD pipeline with comprehensive supply chain 
+                        security. The pipeline includes SAST/DAST scanning, container image scanning, 
+                        dependency analysis, and policy enforcement through automated gates.
+                    </p>
+                    
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>Caught 95% of vulnerabilities before production deployment</li>
+                        <li>Automated security compliance checks reducing manual reviews by 80%</li>
+                        <li>Implemented binary authorization for verified container images</li>
+                        <li>Zero critical vulnerabilities in production for 6+ months</li>
+                    </ul>
+
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>GitHub Actions</span>
+                        <span>Docker</span>
+                        <span>Trivy</span>
+                        <span>SonarQube</span>
+                        <span>OWASP</span>
+                        <span>Snyk</span>
+                        <span>K8s</span>
+                    </div>
+
+                    <h3>Security Controls</h3>
+                    <p>
+                        Multi-stage security pipeline with static application security testing (SAST), 
+                        dynamic security testing (DAST), container image vulnerability scanning, 
+                        dependency analysis, and policy enforcement. All artifacts signed and verified 
+                        before deployment.
+                    </p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/YOUR_GITHUB/project" target="_blank" class="btn btn-outline">View Code →</a>
+                    <a href="#" class="btn btn-outline">Documentation →</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-detail">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category">Infrastructure</span>
+                    <span class="project-date">2023</span>
+                </div>
+                <h2>AWS Infrastructure Automation & Disaster Recovery</h2>
+            </div>
+            
+            <div class="project-body">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        Complete infrastructure-as-code implementation for AWS supporting multi-region 
+                        deployment, automatic failover, and disaster recovery. Fully automated provisioning 
+                        with rollback capabilities and comprehensive backup strategies.
+                    </p>
+                    
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>Deployed infrastructure across 3 regions with automatic failover</li>
+                        <li>Reduced RTO from 4 hours to 15 minutes through automation</li>
+                        <li>Reduced infrastructure provisioning time from days to minutes</li>
+                        <li>Implemented automated backup with verified recovery procedures</li>
+                    </ul>
+
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Terraform</span>
+                        <span>AWS</span>
+                        <span>CloudFormation</span>
+                        <span>Ansible</span>
+                        <span>Auto Scaling</span>
+                        <span>Route53</span>
+                        <span>RDS</span>
+                    </div>
+
+                    <h3>Infrastructure Components</h3>
+                    <p>
+                        VPC design with public/private subnets, load balancing with ALB/NLB, 
+                        auto-scaling groups with lifecycle hooks, managed databases with automated backups, 
+                        CDN distribution for static content, and cross-region replication for disaster recovery.
+                    </p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/YOUR_GITHUB/project" target="_blank" class="btn btn-outline">View Code →</a>
+                    <a href="#" class="btn btn-outline">Architecture Diagram →</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-detail">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category">Observability</span>
+                    <span class="project-date">2023</span>
+                </div>
+                <h2>Comprehensive Monitoring & Observability Stack</h2>
+            </div>
+            
+            <div class="project-body">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        Implemented enterprise-grade observability platform with metrics collection, 
+                        distributed tracing, centralized logging, and intelligent alerting. Provides 
+                        complete visibility into infrastructure and application health.
+                    </p>
+                    
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>MTTR reduced from 45 minutes to 10 minutes with proactive alerting</li>
+                        <li>Implemented custom dashboards reducing incident investigation time by 70%</li>
+                        <li>Correlated metrics, logs, and traces for effective troubleshooting</li>
+                        <li>Cost visibility down to per-service and per-pod granularity</li>
+                    </ul>
+
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>ELK Stack</span>
+                        <span>Jaeger</span>
+                        <span>AlertManager</span>
+                        <span>Loki</span>
+                        <span>OpenMetrics</span>
+                    </div>
+
+                    <h3>Observability Components</h3>
+                    <p>
+                        Metrics collection with Prometheus and custom exporters, visualization with 
+                        Grafana dashboards, centralized logging with ELK stack, distributed tracing 
+                        with Jaeger, and intelligent alerting with AlertManager and escalation policies.
+                    </p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/YOUR_GITHUB/project" target="_blank" class="btn btn-outline">View Code →</a>
+                    <a href="#" class="btn btn-outline">Dashboard Gallery →</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-detail">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category">GitOps</span>
+                    <span class="project-date">2023</span>
+                </div>
+                <h2>GitOps-Driven Application Deployment</h2>
+            </div>
+            
+            <div class="project-body">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        Implemented GitOps-based continuous deployment system using ArgoCD. 
+                        Complete shift to declarative infrastructure with Git as single source of truth, 
+                        enabling true pull-based deployments and easy rollbacks.
+                    </p>
+                    
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>Deployment frequency increased from 1 per month to 50+ per day</li>
+                        <li>Rollback capability from minutes to seconds</li>
+                        <li>Improved team autonomy - developers can manage their own deployments</li>
+                        <li>Complete audit trail of all infrastructure and application changes</li>
+                    </ul>
+
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>ArgoCD</span>
+                        <span>Git</span>
+                        <span>Kubernetes</span>
+                        <span>Helm</span>
+                        <span>Kustomize</span>
+                        <span>Argo Workflows</span>
+                    </div>
+
+                    <h3>GitOps Workflow</h3>
+                    <p>
+                        Declarative application manifests stored in Git, ArgoCD continuously monitors 
+                        repositories and synchronizes cluster state, automated webhooks trigger sync on 
+                        push events, comprehensive audit logs track all changes, and easy rollback to 
+                        any previous Git commit.
+                    </p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/YOUR_GITHUB/project" target="_blank" class="btn btn-outline">View Code →</a>
+                    <a href="#" class="btn btn-outline">Best Practices Guide →</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-detail">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category">Open Source</span>
+                    <span class="project-date">2022</span>
+                </div>
+                <h2>Kubernetes Operations Toolkit (Open Source)</h2>
+            </div>
+            
+            <div class="project-body">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        Developed open-source CLI tool and Go library for common Kubernetes operations. 
+                        Simplifies day-2 operations tasks with clean API and comprehensive CLI interface.
+                    </p>
+                    
+                    <h3>Key Achievements</h3>
+                    <ul>
+                        <li>500+ GitHub stars with active community contributions</li>
+                        <li>Used by teams across multiple organizations</li>
+                        <li>Featured in Kubernetes ecosystem</li>
+                        <li>Well-documented with extensive examples</li>
+                    </ul>
+
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Go</span>
+                        <span>Kubernetes</span>
+                        <span>CLI</span>
+                        <span>REST API</span>
+                        <span>Docker</span>
+                    </div>
+
+                    <h3>Project Features</h3>
+                    <p>
+                        Command-line interface for common operations, Go library for programmatic access, 
+                        comprehensive testing with unit and integration tests, well-documented with 
+                        examples, and active community support.
+                    </p>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/YOUR_GITHUB/project" target="_blank" class="btn btn-outline">View on GitHub →</a>
+                    <a href="#" class="btn btn-outline">Documentation →</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Call to Action -->
+        <section class="projects-cta">
+            <h2>Interested in Working Together?</h2>
+            <p>I'm available for consulting, full-time roles, or contract DevOps engineering work.</p>
+            <a href="/contact" class="btn btn-primary">Let's Talk</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DevOps Portfolio</h4>
+                    <p>Cloud infrastructure and DevOps engineering showcase</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/skills">Skills</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:YOUR_EMAIL">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 YOUR_NAME. All rights reserved. Built with Go, Docker & ❤️</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
