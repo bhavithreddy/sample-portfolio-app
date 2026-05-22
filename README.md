@@ -219,32 +219,7 @@ docker-compose up
 
 This project is licensed under the MIT License. See LICENSE file for details.
 
-## 👤 About
 
-Built with ❤️ by YOUR_NAME
-
-- **GitHub**: https://github.com/YOUR_GITHUB
-- **LinkedIn**: https://linkedin.com/in/YOUR_LINKEDIN
-- **Email**: YOUR_EMAIL@example.com
-
-## 🤝 Contributing
-
-This is a personal portfolio project, but suggestions and improvements are welcome!
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-## 📞 Contact
-
-Have questions or opportunities? Let's connect!
-
-- 📧 Email: YOUR_EMAIL@example.com
-- 💼 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
-- 🐙 GitHub: https://github.com/YOUR_GITHUB
-- 🌐 Portfolio: https://portfolio.example.com
 
 ---
 
